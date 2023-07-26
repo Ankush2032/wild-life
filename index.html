@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Background image animation</title>
+
+<style>
+  
+  *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+
+margin: 0;
+}
+.bgImage{
+position: relative;
+width: 100%;
+height: 100vh;
+background-image: url(mythbuster_ftrimg-1536x718.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+animation: bgChange 30s linear infinite;
+margin-top: -95px;
+
+}
+
+@keyframes bgChange {
+
+0%{
+
+  background-image: url(panther.webp);
+}
+10%{
+
+  background-image: url(tiger.jpg);
+}
+20%{
+
+background-image: url(panda.jpg);
+}
+30%{
+
+background-image: url(bird.jpg);
+}
+40%{
+
+background-image: url(white\ lion.jpg);
+}
+50%{
+
+background-image: url(squirell.jpg);
+}
+60%{
+
+background-image: url(elephant.webp);
+}
+70%{
+
+background-image: url(peacock.jpg);
+}
+80%{
+
+background-image: url(parrot.jpg);
+}
+90%{
+
+background-image: url(crocodile.jpg);
+}
+100%{
+
+background-image: url(lion.jpg);
+}
+
+}
+
+#d1{
+
+margin-top: -150px;
+
+}
+
+overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+background-color: rgba(0,0,0,0.3);
+
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(82, 2, 2);
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+ul{
+list-style: none;
+
+}
+
+.container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+header{
+background-color:lightgoldenrodyellow ;
+position: sticky;
+top: 0;
+z-index: 100;
+box-shadow: 5px 5px 5px rgb(19, 19, 19);
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 0;
+font-family: 'Courier New', Courier, monospace;
+}
+nav ul{
+
+display: flex;
+gap: 20px;
+}
+
+nav ul li{
+
+border-bottom: 2px solid transparent;
+transition: 0.2s ease-in;
+}
+
+nav ul li:hover{
+
+border-bottom: 2px solid rgb(50, 225, 227);
+}
+
+#a1{
+margin-left: 50px;
+  font-size: 20px;
+
+}
+#a3{
+  margin-left: 80px;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+#a4{
+
+  font-size: 25px;
+  margin-left: 100px;
+
+}
+#a5{
+ font-size: 20px;
+  margin-left: 350px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 1px;
+  margin-right: 1px;
+  font-size: 17px;
+  box-shadow: 0px 0px 10px 5px grey;
+}
+.topnav input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+#a7{
+  font-size: 25px;
+  margin-left: 100px;
+
+}
+
+#a9{
+ font-size: 20px;
+  margin-left: 350px;
+}
+
+#b1{
+  font-size: 25px;
+  margin-left: 100px;
+
+}
+#b2{
+ font-size: 20px;
+  margin-left: 350px;
+}
+#b3{
+  font-size: 25px;
+  margin-left: 100px;
+
+}
+#b4{
+ font-size: 20px;
+  margin-left: 350px;
+}
+#b5{
+  font-size: 25px;
+  margin-left: 100px;
+
+}
+#b6{
+ font-size: 20px;
+  margin-left: 350px;
+}
+#b7{
+  font-size: 25px;
+  margin-left: 100px;
+
+}
+#b8{
+ font-size: 20px;
+  margin-left: 350px;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+
+
+
+  <header>
+    <nav class="container">
+       <img src="logo.png" height="65" width="120">
+
+       <div class="topnav">
+
+        <input type="text" placeholder="Search.. &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp &nbsp &nbsp 🔎">
+      </div>
+
+  <ul>
+    <a href="#hero">
+    <li>About Us</li>
+    </a>
+  
+    <a href="#music">
+    <li>Work</li>
+    </a>
+  
+    <a href="#video">
+    <li>Get-Involved</li>
+    </a>
+  
+    <a href="#gift">
+    <li>News</li>
+    </a>
+  </ul>
+  
+    </nav>
+  
+  </header>
+
+
+  
+<div class="bgImage">
+      <div class="overlay"></div>
+            <div class="content"></div>
+
+        <h1></h1>
+         <p></p>
+
+
+</div>
+<br><br><br>
+
+
+
+
+<div id="a1">
+HOME:MYTHBUSTER: SUPERSTITIONS SURROUNDING WILD ANIMAL <br><br> <br><br>
+</div>
+<div id="a2">
+
+  <h1 id="a3">Mythbuster: Superstitions Surrounding Wild  Animals.</h1> <br><br>
+
+</div>
+
+<div id="a4">
+
+  We were all told tales as children – many of which are considered superstition and relatively harmless. <br>
+   Growing up in India, we’ve often heard things like “don’t stray across the path of a black cat,” or “an itch on <br>
+    the palm means wealth is headed your way” and the like. <br>
+
+Amongst many others, our country’s wildlife has faced a rising threat from superstitious beliefs over the <br>
+ years, and these are far from innocuous. From the belief that elephant tusks and elephant hair bring good <br>
+  luck to the faith that sacrificing owls in rituals can bring fortune – many such concepts continue to exist <br>
+   even today, endangering the lives of countless wild animals across the country. This can affect entire <br>
+   ecosystems, and despite a strong legal framework in place, these unfortunate practices continue under the radar. <br> <br>
+
+Here are some commonly believed superstitions that affect some of the animals’ Wildlife SOS works with: <br> <br>
+
+<b> Bengal Tiger: </b>The claws of a tiger are believed to bring good luck, and the genitals are believed to be <br>
+ aphrodisiacs. Tiger pelts are in great demand in the black market and so are their teeth and whiskers, <br>
+  which are said to ‘ward off the evil eye’. <br> <br>
+
+The Bengal Tiger is protected under Schedule I of the Wildlife Protection Act, 1972 but despite the strong <br>
+level of protection granted by the law of the land, these big cats continue to fall prey to threats such as jaw <br> 
+traps, snares, electrocution, poisoning and illegal wildlife trade. Our anti-poaching unit ‘ForestWatch’ has <br>
+ assisted enforcement authorities in busting many poachers in the past resulting in the recovery of tiger <br>
+  skins, claws and other wildlife contraband from these traffickers. <br><br>
+
+</div>
+<div id="a5">
+  <img src="tiger_poaching_myths.jpg" alt=""> <br>
+  
+Tiger skins are highly coveted by occultists and their practices, making it one  <br>
+amongst the many reasons for tiger poaching. [Photo (c) Wildlife SOS]
+</div>
+
+<br> <br> <br>
+  <div id="a7">
+
+   <b> Red Sand Boa: </b> Red sand boas have various superstitious myths and beliefs attributed to them because of <br>
+     their double-headed appearance and are often referred to as “Do muha” in Hindi. <br> <br>
+
+This particular snake species is in danger of mass smuggling as there is a very high demand for them in  <br>
+China and Nepal, and even in western countries. In India, where the superstitious practice of snake <br>
+charming still exists, people are often misguiding into believing that a sighting of these ‘two-headed’ snakes  <br>
+can bring good luck to households. These snakes are highly coveted and sold in the country’s black markets <br>
+ because of such blind faith. Red sand boas are protected under Schedule IV of the Wildlife Protection Act, 1972.  <br> <br>
+
+Every year, especially during the month of Shravan (monsoon), Wildlife SOS rescues countless snakes <br>
+ in terrible conditions from snake charmers and rehabilitates them into their natural habitats upon recovery. <br> <br> <br> <br>
+  </div>
+
+  <div id="a9">
+    <img src="snake.jpg" alt=""> <br>
+    
+  Tiger skins are highly coveted by occultists and their practices, making it one  <br>
+  amongst the many reasons for tiger poaching. [Photo (c) Wildlife SOS]
+  </div>
+<br> <br> <br>
+
+  <div id="b1">
+    <b> Cobra snake:</b> The Cobra is one of the most revered animal species in India, and at the same time highly <br> 
+    feared as it is one of the deadliest snakes found in the country. There is also a long string of baseless <br>
+    beliefs attached to their existence leading to escalating incidents of conflict with humans. A major part of <br>
+    the superstition stems from snake charmers who use cruel methods such as sewing and taping the mouth <br>
+    of the snake, or by breaking their fangs in order to render them “safe” or “harmless”. <br> <br> 
+
+    Every Naga Panchami, cobra snakes are offered milk in the belief that they will drink it. In reality, snakes <br>
+     cannot digest milk at all! Their venom glands are often brutally removed by snake charmers so that they  <br>
+     can be exhibited to large crowds – confused and dehydrated. The Cobra snake is protected under Schedule <br>
+      II of the Wildlife Protection Act, 1972. <br> <br>
+    
+    Wildlife SOS is well-equipped to deal with rescues involving highly venomous snakes like the Cobra. <br>
+     Countless Cobras are still found languishing, neglected, starved and dehydrated, in snake charmers’  <br>
+     baskets, their venom glands and fangs brutally mutilated or removed to reduce the dangers to the handler. <br> <br>
+  </div>
+
+  <div id="b2">
+    <img src="cobra.jpg" alt=""> <br>
+    
+    The cobra snake is another victim of the cruel snake charming practice which is a result  <br>
+    of local superstition. [Photo (c) Wildlife SOS]
+  </div>
+<br> <br> <br>
+
+<div id="b3">
+
+ <b> Indian Star Tortoise:</b> The Indian star tortoise is considered to be a symbol of good luck. It is also believed<br>
+   to hold great value in traditional eastern medicine and its meat is considered a delicacy in other places,<br>
+    thus making it a highly coveted option for poachers looking to make a quick buck. Every year, tens of<br>
+     thousands of star tortoises are poached from the wild and smuggled via railway, airplanes, or even ships<br>
+      nationally and globally. There is also a high demand for Indian Star tortoises in the exotic pet trade as they<br>
+       have a unique star-like radiating pattern on their carapace (shell). <br><br>
+
+This species is protected under Schedule IV of the Wildlife Protection Act, 1972 and is listed as ‘vulnerable’ <br>
+by the International Union for Conservation of Nature (IUCN). At the 2019 CITES summit, they were moved<br>
+ from Appendix II to Appendix I status after a vote by a majority by nations participating in CITES. While <br>
+ hopes soar that these measures can provide more protection to the tortoise both in India, where it’s illegal<br>
+  to own or trade them commercially, and internationally, worries persist due to the recent spike in the trade <br>
+  surrounding the species. <br> <br>
+
+Wildlife SOS has successfully released 51 Indian star tortoises that are part of our Indian Star Tortoise<br>
+ Repatriation Project into their native habitats and has been monitoring them through a unique and<br>
+  innovative satellite telemetry study. These star tortoises were confiscated by authorities in Singapore,<br>
+   luckily before they were put on the black market to be sold as pets or food. <br> <br>
+
+As a part of the research study, factors like health condition, body weight, behaviour patterns, adaptation <br>
+to wild foraging etc are also being documented. The research team also tracks and monitor the movements<br>
+ and ranging patterns of the tortoises. <br> <br>
+</div>
+
+
+<div id="b4">
+  <img src="tortoise.jpg" alt=""> <br>
+    
+  The Star Tortoise’s irradiated carapace is what makes it extremely desirable <br>
+  for superstitious followers. [Photo (c) Wildlife SOS]
+
+</div>
+<br> <br>
+<div id="b5">
+
+  <b> Golden Jackal:</b> Very popular on illicit online markets, the ‘jackal horn’ is a talisman derived from the skull <br>
+  of a golden jackal. While conservation efforts are broadly focussed on more ‘charismatic’ species like tigers, <br>
+  lesser noticed animals like India’s golden jackals are facing the brunt of a more niche superstitious demand. <br>
+  The ‘jackal horn’ is believed to be a talisman to ward off ‘the evil eye’ and protect the wearer. Apart from <br>
+  this, jackal skins and tails are also in great demand.<br><br>
+
+Wildlife SOS frequently rescues Golden Jackals caught in conflict situations, trapped in borewells and from<br>
+ poachers’ snare and jaw traps. These traps are a very cruel way of trapping animals and often lead to<br>
+  grievous injuries or fatalities.<br><br>
+</div>
+
+<div id="b6">
+  <img src="fox.jpg" alt=""> <br>
+    
+  Jackal horns’ are believed to be powerful talismans in local superstition. <br>
+   [Photo (c) Wildlife SOS/Akash Dolas]
+
+</div>
+<br> <br>
+
+<div id="b7">
+
+  <b> Leopards:</b> The myths around big cats are fairly common, and the same is the case with the Indian leopard. <br>
+  Everything from its teeth to skin is considered to hold different mystical properties. People believe that<br>
+   keeping the teeth on one’s person offers protection and brings money. Leopards are accorded protection <br>
+   under Schedule I of the Wildlife Protection Act, 1972.<br><br>
+
+  Wildlife SOS’ anti-poaching unit ‘ForestWatch’ has enabled the capture of many illegal leopard poachers <br>
+  through a vast network of informers and providing aid to enforcement authorities. Leopard skins and teeth<br>
+   are some of the contraband seized from these wildlife traffickers.<br><br>
+
+</div>
+<br> <br>
+<div id="b8">
+  <img src="leopard.jpg" alt=""> <br>
+    
+  Apart from man-animal conflict, leopards also face threats from superstition-driven <br>
+   beliefs that endanger their lives. [Photo (c) Wildlife SOS/Akash Dolas]
+
+</div>
+<br> <br>
+
+<img src="Screenshot (544).png" >
+
+</body>
+</html>
